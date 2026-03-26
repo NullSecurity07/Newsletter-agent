@@ -131,7 +131,7 @@ Raw LLM outputs are often dry or prone to hallucination when summarizing current
 
 ```bash
 # 1. Clone the repository and setup environment
-git clone [https://github.com/your-username/newsletter-agent.git](https://github.com/your-username/newsletter-agent.git)
+git clone https://github.com/NullSecurity07/Newsletter-agent
 cd newsletter-agent
 python -m venv venv
 source venv/bin/activate
