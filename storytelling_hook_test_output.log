@@ -1,0 +1,41 @@
+🚀 Starting MVP Tests for AI Newsletter Generator
+
+🔧 Testing configuration...
+✅ Configuration loaded successfully
+   - Ollama host: http://localhost:11434
+   - Model: codellama:7b
+   - Output dir: ./output
+
+🤖 Testing Ollama client...
+✅ Ollama client initialized
+   - Base URL: http://localhost:11434
+   - Model: codellama:7b
+   - Ollama service is running
+
+🔍 Testing research scraper...
+✅ Research scraper initialized
+✅ Research completed for 'artificial intelligence'
+   - Sources found: 10
+   - Key points: 12
+
+📝 Testing newsletter generator...
+✅ Newsletter generator initialized
+   - Generator ready (requires Ollama for full testing)
+
+🎣 Testing hook generator...
+✅ Hook generator initialized
+   - Hook generator ready (requires Ollama for full testing)
+
+✨ Testing Novelty trigger in HookGenerator...
+Novelty Hook Output: ["You won't believe what happened when an AI system passed the Turing Test! This breakthrough, revealed by top researchers in the field, marks a significant milestone for artificial intelligence. But the full details of this incredible achievement are still being studied and debated. Keep reading to learn more about this shocking discovery and its implications for the future of AI.", "Get ready for a game-changing breakthrough in AI research! Recent advances are transforming the technology landscape, with implications for industries like healthcare, finance, and more. Don't miss out on this critical moment in AI history - read our summary now to stay ahead of the curve!", "Hook: The Impact of AI on Our Future: A Journey to the Edge of Humanity \n \nIn today's world, we are witnessing a revolution in technology that has the potential to change our lives forever. With the first-ever AI passing the Turing Test and breakthroughs in generative models, AI systems now outperform humans in complex tasks, it is clear that the future of humanity is being reshaped by these cutting-edge technologies. As we journey into the unknown waters of AI, we must consider the implications on our careers, personal lives, and the future of our society as a whole. Will we be able to harness the power of AI to create a better world for all? Or will it lead us down a dark path where we are replaced by machines? The fate of humanity hangs in the balance as we embark on this journey.", "Unlock the Future with Cutting-Edge AI Breakthroughs\n\nDiscover the breakthroughs and innovations in AI that are transforming the world of technology and achieving unprecedented results. With our expert guidance, you'll learn how to master these technologies and achieve success in your personal and professional endeavors.", 'Is it possible that the future of AI is not just about making predictions or solving problems, but rather creating new possibilities and pushing the boundaries of human intelligence?']
+
+📖 Testing Storytelling trigger in HookGenerator...
+Storytelling Hook Output: Imagine a world where your doctor can predict the outcome of your illness before you even enter their office. A world where AI-assisted diagnosis saves lives and helps doctors make informed decisions that improve patient outcomes. With the power of AI, hospitals are becoming more efficient and effective in their care, changing the face of healthcare forever."
+This emotional hook taps into the fear of illness, hope for a cure, excitement for the future, and concern for improved care. It resonates with personal interests and concerns such as the potential to save lives or improve medical practices.
+
+💾 Testing file output...
+✅ File saved successfully: ./output/test-topic_20250622_160405.txt
+   - Test file cleaned up
+
+📊 Test Results: 7/8 tests passed
+⚠️  Some tests failed. Please check the errors above.

@@ -1,0 +1,42 @@
+🚀 Starting MVP Tests for AI Newsletter Generator
+
+🔧 Testing configuration...
+✅ Configuration loaded successfully
+   - Ollama host: http://localhost:11434
+   - Model: codellama:7b
+   - Output dir: ./output
+
+🤖 Testing Ollama client...
+✅ Ollama client initialized
+   - Base URL: http://localhost:11434
+   - Model: codellama:7b
+   - Ollama service is running
+
+🔍 Testing research scraper...
+✅ Research scraper initialized
+✅ Research completed for 'artificial intelligence'
+   - Sources found: 10
+   - Key points: 12
+
+📝 Testing newsletter generator...
+✅ Newsletter generator initialized
+   - Generator ready (requires Ollama for full testing)
+
+🎣 Testing hook generator...
+✅ Hook generator initialized
+   - Hook generator ready (requires Ollama for full testing)
+
+✨ Testing Novelty trigger in HookGenerator...
+Novelty Hook Output: You won't believe what I just learned! The first-ever AI to pass the Turing Test has been revealed, and it's a doozy. This groundbreaking AI system is now outperforming humans in complex tasks, leaving many experts baffled. But what really sets this AI apart? Stay tuned to find out!
+
+💾 Testing file output...
+✅ File saved successfully: ./output/test-topic_20250622_145312.txt
+   - Test file cleaned up
+
+📊 Test Results: 7/7 tests passed
+🎉 All tests passed! MVP is ready for use.
+
+📋 Next steps:
+1. Install Ollama: curl -fsSL https://ollama.ai/install.sh | sh
+2. Pull CodeGemma model: ollama pull codellama:7b
+3. Run: venv/bin/python main.py generate 'your topic'
